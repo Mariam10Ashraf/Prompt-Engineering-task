@@ -1,0 +1,24 @@
+ .hero {
+            background: url('https://images.unsplash.com/photo-1600891964599-f61ba0e24092') center/cover no-repeat;
+            color: white;
+            padding: 150px 0;
+            text-align: center;
+        }
+        .menu img, .gallery img {
+            width: 100%;
+            border-radius: 10px;
+            transition: 0.4s;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+        .reservation {
+            background: #f8f9fa;
+            padding: 50px;
+            border-radius: 15px;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            padding: 20px 0;
+        }
